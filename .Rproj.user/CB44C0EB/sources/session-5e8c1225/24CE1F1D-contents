@@ -20,6 +20,8 @@ system("git push -u origin main")
 
 
 #Menghubungkan R Package dengan Github
+system("git pull origin main --allow-unrelated-histories")
+
 system("git add .")
 system('git commit -m "Initial commit"')
 system("git push origin main")
