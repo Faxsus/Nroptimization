@@ -1,0 +1,15 @@
+Package: NROptimation
+Type: Package
+Title: Komstat8
+Version: 0.1.0
+Authors@R: c(
+    person(
+      "udin", "galon",
+      email = "Gamingfaxs@gmail.com",
+      role = c("aut", "cre")
+    )
+  )
+Description: apa aja lah
+License: no licence needed
+Encoding: UTF-8
+LazyData: true
