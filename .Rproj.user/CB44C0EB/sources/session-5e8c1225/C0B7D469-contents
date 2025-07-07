@@ -1,0 +1,8 @@
+---
+title: "README"
+output: html_document
+---
+
+*Newton raphson optimization algorithm for the Komstat model.*
+
+this function find the root of function using the newton raphson method.

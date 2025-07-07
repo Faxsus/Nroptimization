@@ -1,0 +1,33 @@
+library(NROptimation)
+f<- function(x) x^2 - 4
+f_prime <- function(x) 2*x
+newton_raphson(f,f_prime,x0 = 1)
+
+
+setwd("C:\\.kampus\\Komstat\\NROptimation")
+system("git --version")
+system("git status")
+
+system("git config --list", intern = TRUE)
+system('git config user.name "faxsus"')
+system('git config user.email "adamfajar82@gmai.com"')
+
+
+#system("git remote add origin https://github.com/imtikhanis/NROptimation.git")
+system("git remote set-url origin https://github.com/Faxsus/Nroptimization.git")
+system("git branch -M main")
+system("git push -u origin main")
+
+
+#Menghubungkan R Package dengan Github
+system("git add .")
+system('git commit -m "Initial commit"')
+system("git push origin main")
+
+
+#Verifikasi koneksi
+system("git log --oneline")
+system("git branch")
+
+
+devtools::install_github("Faxsus/Nroptimization")
